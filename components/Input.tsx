@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 interface InputProps {
   id: string;
@@ -37,7 +37,7 @@ const Input: React.FC<InputProps> = ({ id, onChange, value, label, type }) => {
         className="
         absolute 
         text-md
-      text-zinc-400
+        text-zinc-400
         duration-150 
         transform 
         -translate-y-3 
